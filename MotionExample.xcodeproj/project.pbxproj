@@ -14,6 +14,7 @@
 		84C502891A8066C70097766A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C502881A8066C70097766A /* Images.xcassets */; };
 		84C5028C1A8066C70097766A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C5028A1A8066C70097766A /* LaunchScreen.xib */; };
 		84C502981A8066C70097766A /* MotionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C502971A8066C70097766A /* MotionExampleTests.m */; };
+		84C502A21A807B140097766A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C502A11A807B140097766A /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		84C502911A8066C70097766A /* MotionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C502961A8066C70097766A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C502971A8066C70097766A /* MotionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionExampleTests.m; sourceTree = "<group>"; };
+		84C502A11A807B140097766A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C502A21A807B140097766A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		84C5026F1A8066C70097766A = {
 			isa = PBXGroup;
 			children = (
+				84C502A11A807B140097766A /* CoreMotion.framework */,
 				84C5027A1A8066C70097766A /* MotionExample */,
 				84C502941A8066C70097766A /* MotionExampleTests */,
 				84C502791A8066C70097766A /* Products */,
@@ -412,6 +416,7 @@
 				84C5029D1A8066C70097766A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C5029E1A8066C70097766A /* Build configuration list for PBXNativeTarget "MotionExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				84C502A01A8066C70097766A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
